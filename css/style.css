@@ -17,6 +17,7 @@ body{background-color: bisque;
 /* header */
 nav{
     display: flex;
+    margin-bottom: 40px;
 }
 .logo{
     flex-basis: 40%;
@@ -38,6 +39,15 @@ nav{
  nav ul li{
      list-style-type: none;
      font-weight: 500;
+ }
+ .search-addcard{
+     margin-top: 20px;
+     margin-left: 20px;
+ }
+ .search-addcard i{
+     font-size: 30px;
+     letter-spacing: 10px;
+     
  }
 /*  */
 section.infullencer {
