@@ -1,0 +1,83 @@
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  main {background: pink;
+  padding: 20px;
+}
+nav {
+  display: flex;
+  margin-bottom: 40px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.infulencer-wrap {
+  display: grid;
+  grid-template-columns: 1fr;
+  flex-direction: column;
+  gap: 50px;
+  align-content: stretch;
+  justify-content: space-around;
+  align-items: baseline;
+  
+}
+.influlencer-desc {
+ width: 500px;
+}
+.many-company-logo {
+  display: flex;
+  padding: 20px;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+  align-content: stretch;
+}
+
+section.more-products h1 {
+  text-align: left;
+  margin-left: 40px;
+  margin: 45px 0;
+  font-size: 35px;
+}
+.single-product-wrap {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: end;
+  justify-items: start;
+  justify-content: start;
+  margin-left: 75px;
+}
+h4.more-about {
+  text-align: left;
+  margin-left: 150px;
+  margin-top: 40px;
+  color: chocolate;
+}
+.feature-wrap {
+  display: grid;
+  grid-template-columns:  1fr;
+  align-items: start;
+  align-content: center;
+  justify-items: start;
+  justify-content: center;
+}
+.feature-desc{
+  width: 500px;
+}
+.feature-desc h1 {
+  margin-top: 35px;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+.feature-des p{
+  font-size: 15px;
+}
+.footer {
+
+padding-left: 100px;
+  background-color: rgb(78, 53, 53);
+  color: white;
+  text-align: left;
+}
+
+}
